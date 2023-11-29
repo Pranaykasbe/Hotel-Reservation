@@ -1,18 +1,24 @@
-## Getting Started
+This Java-based Hotel Reservation System leverages JDBC for database connectivity, offering essential features to efficiently manage reservations. The system allows staff to make, update, view, and delete reservations seamlessly. Additionally, it facilitates retrieving room numbers based on specific criteria, ensuring smooth and organized guest bookings.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Key Features:
 
-## Folder Structure
+Make Reservation: Create new reservations by inputting guest details and preferences, securely storing them in the database.
 
-The workspace contains two folders by default, where:
+Update Reservation: Modify existing reservations, including changes to guest information, check-in/out dates, and room preferences.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+View Reservation: Access a comprehensive view of all reservations, displaying guest information, booking details, and special requests.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Get Room Number: Retrieve available room numbers based on specific criteria, aiding in the efficient assignment of rooms during reservations.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Delete Reservation: Remove reservations from the system, ensuring accurate and updated database records.
 
-## Dependency Management
+Technology Stack:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Java: Utilizes Java for robust and platform-independent application development.
+
+JDBC (Java Database Connectivity): Implements JDBC for seamless interaction with the underlying database management system.
+
+Purpose:
+The system streamlines reservation management in hotels, offering a user-friendly interface for staff to handle bookings effectively, enhancing customer service and operational efficiency.
+
+This condensed description highlights the main functionalities and technology used in the Java-based Hotel Reservation System using JDBC.
